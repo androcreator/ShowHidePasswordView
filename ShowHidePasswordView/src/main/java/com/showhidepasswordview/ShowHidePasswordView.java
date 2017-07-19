@@ -17,7 +17,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 /**
- * Created by vramz on 10/13/16.
+ * Created by androcreator on 10/13/16.
  */
 
 /**
@@ -141,7 +141,7 @@ public class ShowHidePasswordView extends RelativeLayout {
     /**
      * If the user entered Password is hidden, then onclick of SHOW link will make the password will be show.
      */
-    public void showPassword() {
+    private void showPassword() {
         mIsShowingPassword = false;
         editText.setTransformationMethod(PasswordTransformationMethod.getInstance());
         editText.setSelection(editText.getText().length(),editText.getText().length());
@@ -151,7 +151,7 @@ public class ShowHidePasswordView extends RelativeLayout {
     /**
      * If the user entered password visible to the user, then onclick of HIDE link password will not be visible.
      */
-    public void hidePassword() {
+    private void hidePassword() {
         mIsShowingPassword = true;
         editText.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
         editText.setSelection(editText.getText().length(),editText.getText().length());

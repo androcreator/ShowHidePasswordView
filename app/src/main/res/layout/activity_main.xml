@@ -13,13 +13,10 @@
         android:id="@+id/showHideView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="8dp"
         android:maxLength="10"
         app:showPassword="SHOW"
         app:hidePassword="HIDE"
-        android:imeOptions="actionNext"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="8dp">
+        android:imeOptions="actionNext">
     </com.showhidepasswordview.ShowHidePasswordView>
 
 
