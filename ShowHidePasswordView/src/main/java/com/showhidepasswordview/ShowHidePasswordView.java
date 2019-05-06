@@ -24,6 +24,7 @@ import android.widget.TextView;
  * This is the reusable custom class to which will create EditText view with SHOW/HIDE link.
  * ShowHidePasswordView is the attribute array where MaxLength,imeOptions,SHOW/HIDE... will be set like
  *
+ *
  * app:showPassword="SHOW"
  * app:hidePassword="HIDE"
  * android:maxLength="10" were  android:maxLength will be present in ShowHidePasswordView array, because this is custom view we
